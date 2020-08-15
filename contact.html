@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact us</title>
+</head>
+<body>
+	<h1>Contact Us</h1>
+	<p><strong>Office:</strong> 240 Gosford Road, Adamstown, NSW 2289</p>
+	<p><strong>email:</strong>  pbutler2017@outlook.com</p>
+	<p><strong>mobile:</strong> 0417 578840</p>
+
+	<form action="mailto:pbutler2017@outlook.com" method="post" enctype="text/plain" >
+		<label for="user-details">Contact name</label>
+		<input type="text" name="user-details">
+		<br>
+		<label for="user-email">Email address</label>
+		<input type="email" name="user-email">
+		<br>
+		<label for="user-request">How can we help you?</label><br>
+		<textarea rows="8" cols="100" name="user-request"></textarea>
+		<br>
+		<label for="user-data">Upload project files</label>
+		<input type="file" name="user-data">
+		<br>
+		<br>
+		<label for="contact-date">Best time to contact</label>
+		<input type="date" name="contact-date">
+		<input type="time" name="contact-time">
+		<br>
+		<button id="submit-details">Sumbit</button>
+		<br>
+		<hr>
+		<label for="mail-list">Join our weekly newsletter</label>
+		<input type="checkbox" name="mail-list" checked="true">
+
+	</form>
+</body>
+</html>
